@@ -1,0 +1,23 @@
+# Ignorar arquivos e pastas desnecessárias no build da imagem
+
+# Diretórios típicos do Maven/Gradle
+build/
+
+# Diretórios de IDEs
+.idea/
+*.iml
+.vscode/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Git
+.git
+.gitignore
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
